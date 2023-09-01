@@ -1,0 +1,13 @@
+### User - Buscar todos os usuários
+GET http://localhost:8080/user
+
+### User - Criar um usuário
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "name": "Paulo",
+  "email": "pt@teste.com",
+  "phone": "999999999",
+  "cpf": "99999999999"
+}
