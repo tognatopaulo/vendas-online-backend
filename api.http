@@ -9,5 +9,6 @@ Content-Type: application/json
   "name": "Paulo",
   "email": "pt@teste.com",
   "phone": "999999999",
-  "cpf": "99999999999"
+  "cpf": "99999999999",
+  "password": "teste"
 }
