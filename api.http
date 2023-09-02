@@ -12,3 +12,6 @@ Content-Type: application/json
   "cpf": "99999999999",
   "password": "teste"
 }
+
+### State - Buscar todos os estados
+GET http://localhost:8080/state
