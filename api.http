@@ -6,7 +6,7 @@ POST http://localhost:8080/user
 Content-Type: application/json
 
 {
-  "name": "Paulo",
+  "name": "Paolo",
   "email": "pt@teste.com",
   "phone": "999999999",
   "cpf": "99999999999",
