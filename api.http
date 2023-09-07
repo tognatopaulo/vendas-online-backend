@@ -18,3 +18,14 @@ GET http://localhost:8080/state
 
 ### State - Buscar as cidades por ID do estado
 GET http://localhost:8080/city/19
+
+### Endereços - Cadastrar o endereço de um usuário
+POST http://localhost:8080/address/2
+Content-Type: application/json
+
+{
+  "complement": "Complemento",
+  "numberAddress": 180,
+  "cep": "13478769",
+  "cityId": 1
+}
