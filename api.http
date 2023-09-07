@@ -15,3 +15,6 @@ Content-Type: application/json
 
 ### State - Buscar todos os estados
 GET http://localhost:8080/state
+
+### State - Buscar as cidades por ID do estado
+GET http://localhost:8080/city/19

@@ -7,7 +7,7 @@ import {
 } from 'typeorm';
 
 @Entity({ name: 'city' })
-export class UserEntity {
+export class CityEntity {
   @PrimaryGeneratedColumn('rowid')
   id: number;
 
