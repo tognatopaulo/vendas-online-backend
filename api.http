@@ -20,7 +20,7 @@ GET http://localhost:8080/state
 GET http://localhost:8080/city/19
 
 ### Endereços - Cadastrar o endereço de um usuário
-POST http://localhost:8080/address/2
+POST http://localhost:8080/address/200
 Content-Type: application/json
 
 {
