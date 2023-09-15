@@ -1,6 +1,9 @@
 ### User - Buscar todos os usuários
 GET http://localhost:8080/user
 
+### User - Buscar usuário por ID
+GET http://localhost:8080/user/2
+
 ### User - Criar um usuário
 POST http://localhost:8080/user
 Content-Type: application/json
