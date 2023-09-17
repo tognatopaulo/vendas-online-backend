@@ -47,7 +47,9 @@ export class UserService {
     );
 
     if (user) {
-      throw new BadRequestException(`Email '${user.email}' already registered in another account`);
+      throw new BadRequestException(
+        `Email '${user.email}' already registered in another account`,
+      );
     }
 
     const saltOrRounds = 10;
@@ -81,7 +83,7 @@ export class UserService {
       },
     });
 
-    if (!email) {
+    if (!user) {
       throw new NotFoundException(`Email "${email}" not found`);
     }
 
